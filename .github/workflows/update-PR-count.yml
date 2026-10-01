@@ -1,0 +1,70 @@
+name: Update PR Count
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-pr-count:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Calculate PR count
+        env:
+          GH_TOKEN: ${{ secrets.PR_STATS_TOKEN }}
+          GITHUB_USERNAME: Singh-Shashvat
+        run: |
+          mkdir -p .github
+
+          page=1
+          total=0
+
+          while true; do
+            response=$(curl -sS \
+              -H "Accept: application/vnd.github+json" \
+              -H "Authorization: Bearer $GH_TOKEN" \
+              -H "X-GitHub-Api-Version: 2022-11-28" \
+              "https://api.github.com/search/issues?q=author:${GITHUB_USERNAME}+is:pr&per_page=100&page=${page}")
+
+            count=$(echo "$response" | jq '.items | length')
+
+            if [ "$count" -eq 0 ]; then
+              break
+            fi
+
+            total=$((total + count))
+            page=$((page + 1))
+          done
+
+          echo "Total PRs: $total"
+
+          cat > .github/pr-count.json <<EOF
+          {
+            "schemaVersion": 1,
+            "label": "Pull Requests",
+            "message": "$total",
+            "color": "blue"
+          }
+          EOF
+
+      - name: Commit updated PR count
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add .github/pr-count.json
+
+          if git diff --cached --quiet; then
+            echo "PR count has not changed."
+            exit 0
+          fi
+
+          git commit -m "chore: update PR count"
+          git push
