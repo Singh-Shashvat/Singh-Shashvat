@@ -1,152 +1,125 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 150" width="100%" height="150">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 150">
   <defs>
-    <!-- Background -->
-    <linearGradient id="bentoBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a0d1a"/>
-      <stop offset="100%" stop-color="#06060c"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0d1a"/>
+      <stop offset="1" stop-color="#06060c"/>
     </linearGradient>
   </defs>
 
-  <!-- ========================================================= -->
-  <!-- MAIN CARD -->
-  <!-- ========================================================= -->
-
+  <!-- Main container -->
   <rect
     x="2"
     y="2"
     width="846"
     height="146"
     rx="18"
-    fill="url(#bentoBg)"
+    fill="url(#bg)"
     stroke="#00f0ff"
-    stroke-opacity="0.4"
     stroke-width="1.5"
+    stroke-opacity="0.4"
   />
 
-  <!-- ========================================================= -->
-  <!-- TITLE -->
-  <!-- ========================================================= -->
-
+  <!-- Heading -->
   <text
     x="24"
     y="32"
+    fill="#00f0ff"
     font-family="monospace"
     font-size="11"
-    font-weight="800"
+    font-weight="bold"
     letter-spacing="1.5"
+  >HIGHLIGHTS</text>
+
+  <!-- Card 1 -->
+  <rect
+    x="20"
+    y="46"
+    width="260"
+    height="80"
+    rx="12"
+    fill="#0e1222"
+    stroke="#00f0ff"
+    stroke-width="1"
+    stroke-opacity="0.4"
+  />
+
+  <text
+    x="38"
+    y="82"
     fill="#00f0ff"
-  >
-    HIGHLIGHTS
-  </text>
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="15"
+    font-weight="bold"
+  >Full-Stack Engineering</text>
 
-  <!-- ========================================================= -->
-  <!-- SUBCARDS -->
-  <!-- ========================================================= -->
+  <text
+    x="38"
+    y="104"
+    fill="#818cf8"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="12"
+  >Building modern web systems and services</text>
 
-  <g transform="translate(20, 46)">
 
-    <!-- Full-Stack Engineering -->
-    <g transform="translate(0, 0)">
-      <rect
-        width="260"
-        height="80"
-        rx="12"
-        fill="#0e1222"
-        stroke="#00f0ff"
-        stroke-opacity="0.4"
-        stroke-width="1"
-      />
+  <!-- Card 2 -->
+  <rect
+    x="292"
+    y="46"
+    width="260"
+    height="80"
+    rx="12"
+    fill="#0e1222"
+    stroke="#00f0ff"
+    stroke-width="1"
+    stroke-opacity="0.4"
+  />
 
-      <text
-        x="18"
-        y="36"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="15"
-        font-weight="800"
-        fill="#00f0ff"
-      >
-        Full-Stack Engineering
-      </text>
+  <text
+    x="310"
+    y="82"
+    fill="#ffffff"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="15"
+    font-weight="bold"
+  >Open-Source Tooling</text>
 
-      <text
-        x="18"
-        y="58"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="12"
-        fill="#818cf8"
-      >
-        Building resilient modern web systems &amp; services
-      </text>
-    </g>
+  <text
+    x="310"
+    y="104"
+    fill="#818cf8"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="12"
+  >Developer experience, performance and automation</text>
 
-    <!-- Open-Source Tooling -->
-    <g transform="translate(272, 0)">
-      <rect
-        width="260"
-        height="80"
-        rx="12"
-        fill="#0e1222"
-        stroke="#00f0ff"
-        stroke-opacity="0.4"
-        stroke-width="1"
-      />
 
-      <text
-        x="18"
-        y="36"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="15"
-        font-weight="800"
-        fill="#ffffff"
-      >
-        Open-Source Tooling
-      </text>
+  <!-- Card 3 -->
+  <rect
+    x="564"
+    y="46"
+    width="260"
+    height="80"
+    rx="12"
+    fill="#0e1222"
+    stroke="#00f0ff"
+    stroke-width="1"
+    stroke-opacity="0.4"
+  />
 
-      <text
-        x="18"
-        y="58"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="12"
-        fill="#818cf8"
-      >
-        Developer experience, performance, and automation
-      </text>
-    </g>
+  <text
+    x="582"
+    y="82"
+    fill="#ffffff"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="15"
+    font-weight="bold"
+  >Cloud and System Design</text>
 
-    <!-- Cloud & System Design -->
-    <g transform="translate(544, 0)">
-      <rect
-        width="260"
-        height="80"
-        rx="12"
-        fill="#0e1222"
-        stroke="#00f0ff"
-        stroke-opacity="0.4"
-        stroke-width="1"
-      />
-
-      <text
-        x="18"
-        y="36"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="15"
-        font-weight="800"
-        fill="#ffffff"
-      >
-        Cloud &amp; System Design
-      </text>
-
-      <text
-        x="18"
-        y="58"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="12"
-        fill="#818cf8"
-      >
-        Scalable cloud infrastructure &amp; APIs
-      </text>
-    </g>
-
-  </g>
+  <text
+    x="582"
+    y="104"
+    fill="#818cf8"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="12"
+  >Scalable cloud infrastructure and APIs</text>
 
 </svg>
