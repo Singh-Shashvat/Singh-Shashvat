@@ -1,31 +1,35 @@
 <div align="center">
-
-<a href="https://github.com/Singh-Shashvat">
-
-<img src="./hero.svg" alt="Singh-Shashvat Profile Banner" />
-
-</a>
-
+  <a href="https://github.com/Singh-Shashvat">
+    <img src="./hero.svg" alt="Singh-Shashvat's Profile Banner" width="100%" />
+  </a>
 </div>
 
----
+<br/>
 
-### SVG Rendering Test
+<div align="center">
+  <img src="./telemetry.svg" alt="Engineering Telemetry" width="100%" />
+</div>
 
-If the banner above is visible, GitHub can render the SVG correctly.
+<br/>
 
-If it is **not visible**, the problem is with `hero.svg` itself or GitHub's handling of that SVG.
+<div align="center">
+  <img src="./highlights.svg" alt="Engineering Highlights" width="100%" />
+</div>
 
----
+<br/>
 
-### Other profile graphics
+<div align="center">
+  <img src="./selected-work.svg" alt="Selected Work Repositories" width="100%" />
+</div>
 
-<img src="./telemetry.svg" alt="Engineering Telemetry" />
+<br/>
 
-<img src="./highlights.svg" alt="Engineering Highlights" />
+<div align="center">
+  <img src="./languages.svg" alt="Repository Language Stack" width="100%" />
+</div>
 
-<img src="./selected-work.svg" alt="Selected Work" />
+<br/>
 
-<img src="./languages.svg" alt="Repository Languages" />
-
-<img src="./activity.svg" alt="Contribution Activity" />
+<div align="center">
+  <img src="./activity.svg" alt="Contribution Activity Heatmap" width="100%" />
+</div>
