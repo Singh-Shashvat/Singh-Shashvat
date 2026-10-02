@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "templateId": "cyberpunk-neon",
+  "themeId": "midnight-galaxy",
+  "metadata": {
+    "username": "Singh-Shashvat",
+    "source": "github",
+    "updatedAt": "2026-10-02T06:54:25.446Z"
+  },
+  "sections": [
+    {
+      "id": "sec-hero",
+      "type": "hero",
+      "enabled": true,
+      "order": 1,
+      "title": "[CYBER_CORE // IDENTITY]",
+      "content": {
+        "name": "Shashvat Singh",
+        "subtitle": "Full-Stack Developer & Software Engineer",
+        "bio": "Full-Stack Developer | Building modern web systems & developer tooling."
+      }
+    },
+    {
+      "id": "sec-bento",
+      "type": "bento-telemetry",
+      "enabled": true,
+      "order": 2,
+      "title": "[RADAR_TELEMETRY // SLA]",
+      "content": {
+        "prs": "50 PRs Merged",
+        "repos": "18 Public Repos",
+        "uptime": "Active & Shipping",
+        "status": "Open for Opportunities"
+      }
+    },
+    {
+      "id": "sec-stack",
+      "type": "tech-stack",
+      "enabled": true,
+      "order": 3,
+      "title": "[NEURAL_STACK // PROFICIENCY]",
+      "content": {
+        "skills": [
+          "TypeScript",
+          "Python",
+          "HTML",
+          "Jupyter Notebook",
+          "C"
+        ]
+      }
+    },
+    {
+      "id": "sec-repos",
+      "type": "featured-repos",
+      "enabled": true,
+      "order": 4,
+      "title": "[FLAGSHIP_HUBS // DEPLOYMENTS]",
+      "content": {
+        "repositories": [
+          {
+            "name": "Contract-Clause-Risk-Analyser",
+            "description": "Automated legal contract analysis and clause risk evaluation engine built with Python.",
+            "language": "Python",
+            "stars": 1
+          },
+          {
+            "name": "krumos-pm-client",
+            "description": "Modern frontend project management client with reactive state and drag-and-drop workflows.",
+            "language": "TypeScript",
+            "stars": 1
+          },
+          {
+            "name": "krumos-pm-server",
+            "description": "High-throughput backend service powering the Krumos project management suite.",
+            "language": "TypeScript",
+            "stars": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec-bug",
+      "type": "bug-autopsy",
+      "enabled": true,
+      "order": 5,
+      "title": "[WAR_ROOM // ZERO-DAY POSTMORTEM]",
+      "content": {
+        "problem": "Distributed cache stampede caused connection pool starvation during spike.",
+        "cause": "Unsynchronized multi-tenant cache warming requests hitting origin PostgreSQL.",
+        "fix": "Deployed single-flight mutex deduplication with probabilistic early expiration.",
+        "lesson": "Always gate origin read queries behind singleflight mutex barriers."
+      }
+    },
+    {
+      "id": "sec-connect",
+      "type": "connect",
+      "enabled": true,
+      "order": 6,
+      "title": "[UPLINK // FREQUENCIES]",
+      "content": {
+        "email": "contact@example.com"
+      }
+    }
+  ]
+}
