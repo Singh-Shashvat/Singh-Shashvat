@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 180" width="100%" height="180">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d1a" />
+      <stop offset="100%" stop-color="#06060c" />
+    </linearGradient>
+    <filter id="heroGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="rgba(0, 240, 255, 0.25)" />
+    </filter>
+  </defs>
+
+  <!-- Card Body -->
+  <rect x="2" y="2" width="846" height="176" rx="20" fill="url(#heroBg)" stroke="rgba(0, 240, 255, 0.4)" stroke-width="1.5" filter="url(#heroGlow)" />
+
+  <!-- Avatar Placeholder / Ring -->
+  <g transform="translate(30, 35)">
+    <circle cx="55" cy="55" r="50" fill="#0e1222" stroke="#00f0ff" stroke-width="2.5" />
+    <text x="55" y="63" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="32" font-weight="bold" fill="#00f0ff" text-anchor="middle">
+      S
+    </text>
+  </g>
+
+  <!-- User Details -->
+  <g transform="translate(160, 42)">
+    <text x="0" y="16" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="600" fill="#00f0ff">@singh-shashvat</text>
+    <text x="0" y="46" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="26" font-weight="900" fill="#ffffff">shashvat singh</text>
+    <text x="0" y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#818cf8">Full-Stack Developer | Building modern web systems & developer to</text>
+
+    <!-- Skill Pills -->
+    <g transform="translate(0, 88)">
+      <g transform="translate(0, 0)">
+            <rect width="100" height="24" rx="12" fill="rgba(0, 240, 255, 0.12)" stroke="rgba(0, 240, 255, 0.35)" stroke-width="1" />
+            <text x="50" y="16" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" fill="#00f0ff" text-anchor="middle">TypeScript</text>
+          </g><g transform="translate(110, 0)">
+            <rect width="100" height="24" rx="12" fill="rgba(0, 240, 255, 0.12)" stroke="rgba(0, 240, 255, 0.35)" stroke-width="1" />
+            <text x="50" y="16" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" fill="#00f0ff" text-anchor="middle">Python</text>
+          </g><g transform="translate(220, 0)">
+            <rect width="100" height="24" rx="12" fill="rgba(0, 240, 255, 0.12)" stroke="rgba(0, 240, 255, 0.35)" stroke-width="1" />
+            <text x="50" y="16" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" fill="#00f0ff" text-anchor="middle">HTML</text>
+          </g><g transform="translate(330, 0)">
+            <rect width="100" height="24" rx="12" fill="rgba(0, 240, 255, 0.12)" stroke="rgba(0, 240, 255, 0.35)" stroke-width="1" />
+            <text x="50" y="16" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" fill="#00f0ff" text-anchor="middle">Jupyter Notebook</text>
+          </g>
+    </g>
+  </g>
+
+  <!-- Total Stars Highlight on Right -->
+  <g transform="translate(700, 50)">
+    <line x1="0" y1="0" x2="0" y2="80" stroke="rgba(0, 240, 255, 0.4)" stroke-width="1" opacity="0.6" />
+    <text x="75" y="48" font-family="'JetBrains Mono', monospace" font-size="38" font-weight="900" fill="#00f0ff" text-anchor="middle">18</text>
+    <text x="75" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="800" letter-spacing="1.5" fill="#818cf8" text-anchor="middle">TOTAL STARS</text>
+  </g>
+</svg>

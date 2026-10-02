@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 140" width="100%" height="140">
+  <!-- 3 Columns -->
+  <g transform="translate(0, 0)">
+    <g transform="translate(0, 0)">
+          <rect width="278" height="136" rx="14" fill="#0e1222" stroke="rgba(0, 240, 255, 0.4)" stroke-width="1.2" />
+          <text x="20" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="800" fill="#ffe600">Singh-Shashvat</text>
+          <text x="20" y="64" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#818cf8">my profile enhensor</text>
+          <text x="20" y="104" font-family="'JetBrains Mono', monospace" font-size="11" fill="#818cf8">TypeScript • ⭐ 1</text>
+        </g><g transform="translate(286, 0)">
+          <rect width="278" height="136" rx="14" fill="#0e1222" stroke="rgba(0, 240, 255, 0.4)" stroke-width="1.2" />
+          <text x="20" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="800" fill="#ffe600">my-vamanya-app</text>
+          <text x="20" y="64" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#818cf8">Full-stack engineering project</text>
+          <text x="20" y="104" font-family="'JetBrains Mono', monospace" font-size="11" fill="#818cf8">TypeScript • ⭐ 1</text>
+        </g><g transform="translate(572, 0)">
+          <rect width="278" height="136" rx="14" fill="#0e1222" stroke="rgba(0, 240, 255, 0.4)" stroke-width="1.2" />
+          <text x="20" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="800" fill="#ffe600">Contract-Clause-Risk-Ana</text>
+          <text x="20" y="64" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#818cf8">Full-stack engineering project</text>
+          <text x="20" y="104" font-family="'JetBrains Mono', monospace" font-size="11" fill="#818cf8">Python • ⭐ 1</text>
+        </g>
+  </g>
+</svg>

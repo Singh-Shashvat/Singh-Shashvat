@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 75" width="100%" height="75">
+  <defs>
+    <linearGradient id="stripBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1222" />
+      <stop offset="100%" stop-color="#06060c" />
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="646" height="71" rx="14" fill="url(#stripBg)" stroke="rgba(0, 240, 255, 0.4)" stroke-width="1" />
+
+  <g transform="translate(0, 0)">
+        
+        <text x="81.25" y="36" font-family="'JetBrains Mono', monospace" font-size="18" font-weight="900" fill="#ffffff" text-anchor="middle">1</text>
+        <text x="81.25" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#818cf8" text-anchor="middle">Followers</text>
+      </g><g transform="translate(162.5, 0)">
+        <line x1="0" y1="15" x2="0" y2="60" stroke="rgba(0, 240, 255, 0.4)" stroke-width="1" opacity="0.4" />
+        <text x="81.25" y="36" font-family="'JetBrains Mono', monospace" font-size="18" font-weight="900" fill="#ffffff" text-anchor="middle">18</text>
+        <text x="81.25" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#818cf8" text-anchor="middle">Repositories</text>
+      </g><g transform="translate(325, 0)">
+        <line x1="0" y1="15" x2="0" y2="60" stroke="rgba(0, 240, 255, 0.4)" stroke-width="1" opacity="0.4" />
+        <text x="81.25" y="36" font-family="'JetBrains Mono', monospace" font-size="18" font-weight="900" fill="#00f0ff" text-anchor="middle">18</text>
+        <text x="81.25" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#818cf8" text-anchor="middle">Stars</text>
+      </g><g transform="translate(487.5, 0)">
+        <line x1="0" y1="15" x2="0" y2="60" stroke="rgba(0, 240, 255, 0.4)" stroke-width="1" opacity="0.4" />
+        <text x="81.25" y="36" font-family="'JetBrains Mono', monospace" font-size="18" font-weight="900" fill="#00f0ff" text-anchor="middle">218</text>
+        <text x="81.25" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#818cf8" text-anchor="middle">Contributions</text>
+      </g>
+</svg>
