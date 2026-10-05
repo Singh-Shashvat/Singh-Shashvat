@@ -60,132 +60,188 @@ Currently building at **Krumos**, turning ideas into products that people can ac
 
 </div>
 
+<br>
+
+<div align="center">
+
+<code>03 / BUILD LOG</code>
+
+# ⎯⎯⎯ Build Log ⎯⎯⎯
+
+**Different industries. Different problems.**<br>
+**One continuous journey of building software.**
+
+</div>
+
+<br>
+
 ---
 
-## `03 / BUILD LOG`
+<!-- ───────────── 01 ───────────── -->
+<div align="center">
 
-> **Different industries. Different problems. One continuous journey of building software.**
+<code>01</code> &nbsp;·&nbsp; <sub><b>HEALTHCARE</b></sub>
 
-### `01` · HEALTHCARE
-
-#### FourC Health
+# 🩺 FourC Health
 **Healthcare Management Platform · United States**
 
-A digital healthcare ecosystem focused on personalized primary care and weight management.
+<i>A digital healthcare ecosystem focused on<br>personalized primary care and weight management.</i>
 
-**Worked across**
-- Patient mobile application
-- EHR application for medical professionals
-- Administrative application
-- Healthcare workflows
-- Scalable application architecture
+<br>
 
-**Stack**  
-`React Native` `MongoDB` `AWS`
+`Patient mobile application` &nbsp;·&nbsp; `EHR application for medical professionals`<br>
+`Administrative application` &nbsp;·&nbsp; `Healthcare workflows`<br>
+`Scalable application architecture`
+
+<br>
+
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+
+</div>
+
+<br>
 
 ---
 
-### `02` · CIRCULAR ECONOMY
+<!-- ───────────── 02 ───────────── -->
+<div align="center">
 
-#### Rebound
+<code>02</code> &nbsp;·&nbsp; <sub><b>CIRCULAR ECONOMY</b></sub>
+
+# ♻️ Rebound
 **Recycling & Sustainability Platform · UAE**
 
-End-to-end software supporting recycling operations, material recovery and sustainability tracking.
+<i>End-to-end software supporting recycling operations,<br>material recovery and sustainability tracking.</i>
 
-**Worked across**
-- Material recovery workflows
-- Recycling operations
-- Sustainability tracking
-- Partner integrations
-- Real-time data
+<br>
 
-**Stack**  
-`React` `Node.js` `PostgreSQL` `AWS`
+`Material recovery workflows` &nbsp;·&nbsp; `Recycling operations`<br>
+`Sustainability tracking` &nbsp;·&nbsp; `Partner integrations` &nbsp;·&nbsp; `Real-time data`
+
+<br>
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+
+</div>
+
+<br>
 
 ---
 
-### `03` · STARTUP ECOSYSTEM
+<!-- ───────────── 03 ───────────── -->
+<div align="center">
 
-#### Ignyte
+<code>03</code> &nbsp;·&nbsp; <sub><b>STARTUP ECOSYSTEM</b></sub>
+
+# 🚀 Ignyte
 **Startup Growth Platform · DIFC**
 
-A platform connecting founders, investors and service providers within the DIFC startup ecosystem.
+<i>A platform connecting founders, investors and service providers<br>within the DIFC startup ecosystem.</i>
 
-**Worked across**
-- Community networking
-- Startup resources
-- Business services
-- Digital marketplace
-- Authentication
-- API integrations
+<br>
 
-**Stack**  
-`React Native` `TypeScript`
+`Community networking` &nbsp;·&nbsp; `Startup resources` &nbsp;·&nbsp; `Business services`<br>
+`Digital marketplace` &nbsp;·&nbsp; `Authentication` &nbsp;·&nbsp; `API integrations`
+
+<br>
+
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+
+</div>
+
+<br>
 
 ---
 
-### `04` · REAL ESTATE / DATA
+<!-- ───────────── 04 ───────────── -->
+<div align="center">
 
-#### Xtend
+<code>04</code> &nbsp;·&nbsp; <sub><b>REAL ESTATE / DATA</b></sub>
+
+# 🏢 Xtend
 **Real Estate Data Platform · DIFC**
 
-A subscription-based platform providing access to real estate data through APIs.
+<i>A subscription-based platform providing access<br>to real estate data through APIs.</i>
 
-**Worked across**
-- Subscription workflows
-- API access
-- Payment integration
-- MFA
-- RBAC
-- Data protection
-- Enterprise integrations
+<br>
 
-**Stack**  
-`React` `Node.js` `TypeScript` `Azure`
+`Subscription workflows` &nbsp;·&nbsp; `API access` &nbsp;·&nbsp; `Payment integration`<br>
+`MFA` &nbsp;·&nbsp; `RBAC` &nbsp;·&nbsp; `Data protection` &nbsp;·&nbsp; `Enterprise integrations`
+
+<br>
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+
+</div>
+
+<br>
 
 ---
 
-### `05` · EDUCATION / SaaS
+<!-- ───────────── 05 ───────────── -->
+<div align="center">
 
-#### EduPro
+<code>05</code> &nbsp;·&nbsp; <sub><b>EDUCATION / SaaS</b></sub>
+
+# 🎓 EduPro
 **Education · SaaS · Product Platform**
 
-A product direction focused on building software for education operations and student journeys.
+<i>A product direction focused on building software for<br>education operations and student journeys.</i>
 
-**Areas**
-- Student management
-- Admissions
-- CRM workflows
-- Courses
-- Payments
-- Organization management
-- Roles & permissions
-- Analytics
-- Integrations
+<br>
 
-**Stack**  
-`React` `TypeScript` `Node.js` `PostgreSQL` `Docker`
+`Student management` &nbsp;·&nbsp; `Admissions` &nbsp;·&nbsp; `CRM workflows` &nbsp;·&nbsp; `Courses`<br>
+`Payments` &nbsp;·&nbsp; `Organization management` &nbsp;·&nbsp; `Roles & permissions`<br>
+`Analytics` &nbsp;·&nbsp; `Integrations`
+
+<br>
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+</div>
+
+<br>
 
 ---
 
-### `06` · AI / DEVELOPER TOOLS
+<!-- ───────────── 06 ───────────── -->
+<div align="center">
 
-#### AI PR Reviewer
+<code>06</code> &nbsp;·&nbsp; <sub><b>AI / DEVELOPER TOOLS</b></sub>
+
+# 🤖 AI PR Reviewer
 **AI · GitHub · Developer Automation**
 
-An exploration into AI-powered engineering workflows around GitHub pull requests and automated code review.
+<i>An exploration into AI-powered engineering workflows<br>around GitHub pull requests and automated code review.</i>
 
-**Areas**
-- GitHub integrations
-- LLM-powered analysis
-- Automated code review
-- Developer feedback
-- AI workflows
-- Model routing
-- Engineering automation
+<br>
+
+`GitHub integrations` &nbsp;·&nbsp; `LLM-powered analysis` &nbsp;·&nbsp; `Automated code review`<br>
+`Developer feedback` &nbsp;·&nbsp; `AI workflows` &nbsp;·&nbsp; `Model routing` &nbsp;·&nbsp; `Engineering automation`
+
+<br>
+
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![LLM](https://img.shields.io/badge/LLM_Powered-8A2BE2?style=for-the-badge&logo=openai&logoColor=white)
+
+</div>
+
+<br>
 
 ---
-
 ## `04 / ENGINEERING MINDSET`
 
 <div align="center">
