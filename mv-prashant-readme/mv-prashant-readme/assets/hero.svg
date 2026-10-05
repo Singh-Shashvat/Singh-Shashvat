@@ -1,0 +1,19 @@
+<svg width="1200" height="390" viewBox="0 0 1200 390" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1200" y2="390"><stop stop-color="#050507"/><stop offset=".55" stop-color="#0B0714"/><stop offset="1" stop-color="#050B12"/></linearGradient>
+<linearGradient id="line" x1="110" y1="40" x2="1080" y2="350"><stop stop-color="#8B5CF6"/><stop offset=".5" stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+<pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" stroke="#fff" stroke-opacity=".055"/></pattern>
+<filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="1200" height="390" rx="28" fill="url(#bg)"/><rect width="1200" height="390" rx="28" fill="url(#grid)"/><rect x="1" y="1" width="1198" height="388" rx="27" stroke="url(#line)" stroke-opacity=".35"/>
+<circle cx="1010" cy="78" r="145" fill="#7C3AED" fill-opacity=".10" filter="url(#blur)"><animate attributeName="opacity" values=".5;1;.5" dur="5s" repeatCount="indefinite"/></circle>
+<circle cx="210" cy="335" r="125" fill="#06B6D4" fill-opacity=".07" filter="url(#blur)"/>
+<g fill="#D4D4D8" opacity=".7"><circle cx="1030" cy="78" r="2"/><circle cx="1080" cy="126" r="1.5"/><circle cx="945" cy="55" r="1.5"/><circle cx="1120" cy="210" r="1"/><circle cx="160" cy="95" r="1.5"/></g>
+<text x="82" y="83" fill="#A78BFA" font-family="monospace" font-size="14" letter-spacing="4">MV PRASHANT / 001</text>
+<text x="80" y="155" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="58" font-weight="800">Founder.</text>
+<text x="80" y="218" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="58" font-weight="800">Product Engineer.</text>
+<text x="80" y="281" fill="url(#line)" font-family="Arial,Helvetica,sans-serif" font-size="58" font-weight="800">AI Builder.</text>
+<text x="83" y="323" fill="#A1A1AA" font-family="Arial,Helvetica,sans-serif" font-size="16">I build products, systems and AI-powered tools.</text>
+<g transform="translate(850 250)"><rect width="260" height="74" rx="14" fill="#fff" fill-opacity=".035" stroke="#fff" stroke-opacity=".10"/><circle cx="24" cy="25" r="5" fill="#22D3EE"><animate attributeName="opacity" values=".3;1;.3" dur="1.8s" repeatCount="indefinite"/></circle><text x="40" y="30" fill="#D4D4D8" font-family="monospace" font-size="12">SYSTEM / ONLINE</text><text x="20" y="54" fill="#71717A" font-family="monospace" font-size="10">PRODUCT → SYSTEMS → AI</text></g>
+<path d="M80 350H1120" stroke="url(#line)" stroke-opacity=".35"/><path d="M80 350H315" stroke="url(#line)" stroke-width="2"><animate attributeName="x2" values="315;1050;315" dur="6s" repeatCount="indefinite"/></path>
+</svg>
